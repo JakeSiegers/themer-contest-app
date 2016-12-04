@@ -1,0 +1,114 @@
+{
+  "settings": [
+    {
+      "name": "toolkit",
+      "value": "modern",
+      "id": "96d58d8b-43df-4057-a8fa-d7d474e8ccc3"
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Raleway",
+      "type": "google",
+      "fallback": "sans-serif",
+      "id": "28c6c031-dea4-4622-aa2e-6a6869fb6a43"
+    }
+  ],
+  "palette": [
+    {
+      "variable": "base_color",
+      "displayName": "Base Color",
+      "order": 0,
+      "r": 118,
+      "g": 7,
+      "b": 222,
+      "a": 1,
+      "h": 0.7527131782945736,
+      "s": 0.9684684684684685,
+      "v": 0.8705882352941177,
+      "id": "f696a3a4-cefd-4e99-8fe4-3f8a1dba5848",
+      "transparent": false,
+      "sass": "",
+      "base": true,
+      "tooltip": "<b>Base Color</b><br/>#7607DE",
+      "rgba": "rgba(118, 7, 222, 1)",
+      "hex": "#7607DE"
+    },
+    {
+      "variable": "body_background_color",
+      "displayName": "Body Background Color",
+      "order": 1,
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 1,
+      "h": 0,
+      "s": 0,
+      "v": 1,
+      "id": "e699f57b-c72f-49a3-b9d4-371f5e426cb4",
+      "transparent": false,
+      "sass": "",
+      "base": true,
+      "tooltip": "<b>Body Background Color</b><br/>#FFFFFF",
+      "rgba": "rgba(255, 255, 255, 1)",
+      "hex": "#FFFFFF"
+    },
+    {
+      "variable": "color",
+      "displayName": "Default Font Color",
+      "order": 2,
+      "r": 31,
+      "g": 31,
+      "b": 31,
+      "a": 1,
+      "h": 0,
+      "s": 0,
+      "v": 0.12156862745098039,
+      "id": "d86455f9-d11f-4080-b2ff-6dc13083fee1",
+      "transparent": false,
+      "sass": "",
+      "base": true,
+      "tooltip": "<b>Default Font Color</b><br/>#1F1F1F",
+      "rgba": "rgba(31, 31, 31, 1)",
+      "hex": "#1F1F1F"
+    },
+    {
+      "r": 76,
+      "g": 175,
+      "b": 80,
+      "a": 1,
+      "h": 0.34006734006734,
+      "s": 0.5657142857142857,
+      "v": 0.6862745098039216,
+      "id": "8158d124-324b-44f6-9037-85b310485096",
+      "variable": "",
+      "displayName": "",
+      "transparent": false,
+      "sass": "",
+      "order": 2,
+      "base": true,
+      "tooltip": "#4CAF50",
+      "rgba": "rgba(76, 175, 80, 1)",
+      "hex": "#4CAF50"
+    },
+    {
+      "r": 244,
+      "g": 67,
+      "b": 54,
+      "a": 1,
+      "h": 0.011403508771929829,
+      "s": 0.7786885245901639,
+      "v": 0.9568627450980393,
+      "id": "74d1a0e1-af0e-43c5-accc-032b74e8e928",
+      "variable": "",
+      "displayName": "",
+      "transparent": false,
+      "sass": "",
+      "order": 2,
+      "base": true,
+      "tooltip": "#F44336",
+      "rgba": "rgba(244, 67, 54, 1)",
+      "hex": "#F44336"
+    }
+  ]
+}
