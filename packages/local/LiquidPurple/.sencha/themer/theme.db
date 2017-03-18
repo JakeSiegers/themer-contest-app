@@ -12,6 +12,30 @@
       "type": "google",
       "fallback": "sans-serif",
       "id": "f7fe7c54-bbce-4ef4-a6c0-58ecd7a3bdc4"
+    },
+    {
+      "name": "Righteous",
+      "type": "google",
+      "fallback": "sans-serif",
+      "id": "a8d37969-427d-4d9c-b709-7fe7a9e59410"
+    },
+    {
+      "name": "Quicksand",
+      "type": "google",
+      "fallback": "sans-serif",
+      "id": "73d9d43d-a6d7-4a1c-8879-a80c7146acb4"
+    },
+    {
+      "name": "Source Sans Pro",
+      "type": "google",
+      "fallback": "sans-serif",
+      "id": "a6a6a6ad-ed78-4e1b-a295-fa984278b02e"
+    },
+    {
+      "name": "Nunito",
+      "type": "google",
+      "fallback": "sans-serif",
+      "id": "58a6c2d7-8f32-4157-a672-97e5a705c37b"
     }
   ],
   "palette": [
