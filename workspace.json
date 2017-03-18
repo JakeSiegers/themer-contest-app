@@ -3,7 +3,8 @@
      *  An array of the paths to all the applications present in this workspace
      */
     "apps": [
-        "packages/local/JakeTheme/.sencha/temp/Themer"
+        "packages/local/theme-triton-24/.sencha/temp/Themer",
+        "packages/local/LiquidPurple/.sencha/temp/Themer"
     ],
 
     /**
@@ -28,11 +29,12 @@
      *      }
      *
      */
-    "frameworks": {        "ext": {
+    "frameworks": {
+        "ext": {
             "path":"ext",
-            "version":"6.2.0.981"
+            "version":"6.2.1.167"
         }
-
+        
         
         
     },

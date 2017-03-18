@@ -1,2 +1,2 @@
-Ext.namespace('Ext.theme.is')['JakeTheme'] = true;
-Ext.theme.name = 'JakeTheme';
+Ext.namespace('Ext.theme.is')['LiquidPurple'] = true;
+Ext.theme.name = 'LiquidPurple';

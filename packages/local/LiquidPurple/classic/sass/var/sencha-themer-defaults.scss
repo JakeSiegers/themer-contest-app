@@ -1,31 +1,4 @@
 $base-gradient: dynamic(none);
-
-@function contrast_color_by($base_color_var, $percent) {
-  @return if(lightness($base_color_var) > 50, darken($base_color_var, $percent), lighten($base_color_var, $percent));
-}
-@function reverse_gradient_for($gradient) {
-  @if $gradient == 'matte' {
-    @return 'matte-reverse';
-  }
-  @else if $gradient == 'matte-reverse' {
-    @return 'matte';
-  }
-  @else if $gradient == 'bevel' {
-    @return 'recessed';
-  }
-  @else if $gradient == 'recessed' {
-    @return 'bevel';
-  }
-  @else if $gradient == 'glossy' {
-    @return 'glossy-reverse';
-  }
-  @else if $gradient == 'glossy-reverse' {
-    @return 'glossy';
-  }
-  @else {
-    @return $gradient;
-  }
-}
 $background-color: dynamic(#fff);
 $page-bg-color: $background-color; // shim for Ext JS 6.0.2 - $background-color introduced in 6.2.0
 $neutral_light_color: if(lightness($body_background_color) > 50, mix(#fff, $neutral_color, 80%), mix(#000, $neutral_color, 30.4%));
@@ -39,44 +12,10 @@ $button_large_font_size: $button_medium_font_size + 2;
 $tag_field_color: dynamic($form_text_field_color);
 $toolbar_text_color: contrast_color_by($body_background_color, 70);
 
-// tag field color
-
-.x-tagfield-empty-input,
-.x-tagfield-input-field {
-  color: $tag_field_color;
-}
-
-@mixin x-placeholder-text-color($color) {
-  &::-webkit-input-placeholder {
-    color: $color;
-  }
-
-  &:-moz-placeholder { /* Firefox 18- */
-    color: $color;
-  }
-
-  &::-moz-placeholder {  /* Firefox 19+ */
-    color: $color;
-  }
-
-  &:-ms-input-placeholder {
-    color: $color;
-  }
-}
-
-// fix bug where placeholder text color doesn't get $form-field-empty-color, $form-text-field-empty-color
-.x-form-field {
-  @include x-placeholder-text-color($form-field-empty-color);
-}
-.x-form-field.x-form-text {
-  @include x-placeholder-text-color($form-text-field-empty-color);
-}
-
 // correct base-gradient for triton
 $base-gradient: '';
 
 // links
-
 $link_color: dynamic(none);
 $link_text_decoration: dynamic(none);
 
@@ -89,33 +28,6 @@ $link_hover_text_decoration: dynamic(underline);
 $link_active_color: dynamic($link_color);
 $link_active_text_decoration: dynamic($link_hover_text_decoration);
 
-a {
-  color: $link_color;
-  text-decoration: $link_text_decoration;
-
-  &:visited, &.x-sencha-themer-visited {
-    color: $link_visited_color;
-    text-decoration: $link_visited_text_decoration;
-  }
-
-  &:hover, &.x-sencha-themer-visited:hover {
-    color: $link_hover_color;
-    text-decoration: $link_hover_text_decoration;
-  }
-
-  &:active, &.x-sencha-themer-visited:active {
-    color: $link_active_color;
-    text-decoration: $link_active_text_decoration;
-  }
-
-  &.x-btn, &:hover.x-btn, &:active.x-btn {
-    text-decoration: none; // keep buttons from getting a text-decoration on hover
-  }
-}
-
-.x-grid-cell-inner-row-numberer {
-  color: $grid_column_header_color
-}
 $panel_body_background_color: $body_background_color;
 $treelist_toolstrip_background_color: contrast_color_by($body_background_color, 3);
 $color: contrast_color_by($body_background_color, 75);

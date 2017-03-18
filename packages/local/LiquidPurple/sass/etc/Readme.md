@@ -1,4 +1,4 @@
-# JakeTheme/sass/etc
+# LiquidPurple/sass/etc
 
-This folder contains miscellaneous SASS files. Unlike `"JakeTheme/sass/etc"`, these files
+This folder contains miscellaneous SASS files. Unlike `"LiquidPurple/sass/etc"`, these files
 need to be used explicitly.

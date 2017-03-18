@@ -1,3 +1,3 @@
-# JakeTheme/licenses
+# LiquidPurple/licenses
 
 This folder contains the supported licenses for third-party use.

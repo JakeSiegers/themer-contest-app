@@ -36,7 +36,7 @@
      *
      *    "extend": "parent-theme-package",
      */
-    "extend": "theme-triton",
+    "extend": "theme-material",
 
     /**
      * The toolkit used by this theme (only for "theme" package type).
@@ -45,7 +45,7 @@
      *
      *    "toolkit": "classic",
      */
-    "toolkit": "classic",
+    "toolkit": "modern",
 
      /**
       * The author of the package.
@@ -155,8 +155,9 @@
          *      +-----------------+
          */
         "etc": [
-            "${package.dir}/sass/etc/all.scss"
-         ],
+            "${package.dir}/sass/etc/all.scss",
+            "${package.dir}/${toolkit.name}/sass/etc/sencha-themer-defaults.scss"
+        ],
 
         /**
          * Comma-separated list of folders containing Sass variable definitions
@@ -180,7 +181,8 @@
          */
         "var": [
             "${package.dir}/sass/var",
-            "${package.dir}/${toolkit.name}/sass/var/sencha-themer-defaults.scss"
+            "${package.dir}/${toolkit.name}/sass/var/sencha-themer-defaults.scss",
+            "${package.dir}/${toolkit.name}/sass/var/themer-ui-variables.scss"
         ],
 
         /**
@@ -200,9 +202,9 @@
          *      +-----------------+
          */
         "src": [
-            "${package.dir}/sass/src"
-        ,	"${package.dir}/${toolkit.name}/sass/save"
-
+            "${package.dir}/sass/src",
+            "${package.dir}/${toolkit.name}/sass/save",
+            "${package.dir}/${toolkit.name}/sass/src/sencha-themer-defaults.scss"
         ]
     },
 

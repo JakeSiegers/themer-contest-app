@@ -1,2 +1,2 @@
-# JakeTheme - Read Me
+# LiquidPurple - Read Me
 
